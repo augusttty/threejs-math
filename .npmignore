@@ -11,3 +11,4 @@ unused/
 .settings/
 src/
 utils/
+tsconfig.json

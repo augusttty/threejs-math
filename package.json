@@ -1,5 +1,5 @@
 {
-  "name": "threejs-math",
+  "name": "threejs-math-with-types",
   "version": "0.147.0",
   "description": "Stand-alone version of three.js math with TypeScript support",
   "keywords": [
@@ -14,14 +14,14 @@
     "linear algebra"
   ],
   "type": "module",
-  "main": "./build/threejs-math.cjs",
-  "module": "./build/threejs-math.module.js",
+  "main": "./build/threejs-math-with-types.cjs",
+  "module": "./build/threejs-math-with-types.module.js",
   "typings": "types/index.d.ts",
   "exports": {
     ".": {
       "types": "./types/index.d.ts",
-      "import": "./build/threejs-math.module.js",
-      "require": "./build/threejs-math.cjs"
+      "import": "./build/threejs-math-with-types.module.js",
+      "require": "./build/threejs-math-with-types.cjs"
     }
   },
   "sideEffects": false,
@@ -41,13 +41,13 @@
     }
   },
   "author": {
-    "name": "ros2jsguy",
-    "email": "ros2jsguy@gmail.com",
-    "url": "https://github.com/ros2jsguy"
+    "name": "augusttty",
+    "email": "augusttty@gmail.com",
+    "url": "https://github.com/augusttty"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ros2jsguy/threejs-math"
+    "url": "git+https://github.com/augusttty/threejs-math.git"
   },
   "license": "MIT",
   "devDependencies": {

@@ -30,7 +30,7 @@ let builds = [
 		output: [
 			{
 				format: 'esm',
-				file: 'build/threejs-math.module.js'
+				file: 'build/threejs-math-with-types.module.js'
 			}
 		]
 	},
@@ -49,7 +49,7 @@ let builds = [
 			{
 				format: 'cjs',
 				name: 'THREE',
-				file: 'build/threejs-math.cjs',
+				file: 'build/threejs-math-with-types.cjs',
 				indent: '\t'
 			}
 		]
