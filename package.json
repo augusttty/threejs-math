@@ -19,6 +19,7 @@
   "typings": "types/index.d.ts",
   "exports": {
     ".": {
+      "types": "./types/index.d.ts",
       "import": "./build/threejs-math.module.js",
       "require": "./build/threejs-math.cjs"
     }
